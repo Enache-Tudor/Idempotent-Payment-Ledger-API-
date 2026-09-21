@@ -1,0 +1,2 @@
+INSERT INTO accounts (id, balance, currency) VALUES ('ACC-001', 5000.0000, 'USD') ON CONFLICT DO NOTHING;
+INSERT INTO accounts (id, balance, currency) VALUES ('ACC-002', 1000.0000, 'USD') ON CONFLICT DO NOTHING;
